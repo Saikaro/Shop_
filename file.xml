@@ -1,0 +1,21 @@
+<products>
+    <product>
+        <id>1</id>
+        <name>Помідор</name>
+        <price>Цена: ₴20.00 / 1 кг.</price>
+        <category>Овочі та фрукти</category>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Огірки</name>
+        <price>Цена: ₴15.00 / 1 кг.</price>
+        <category>овочі та фрукти</category>
+    </product>
+    <product>
+        <id>3</id>
+        <name>Яблука</name>
+        <price>19.99</price>
+        <category>Овочі та фрукти</category>
+    </product>
+    <!-- Додайте інші продукти за потребою -->
+</products>

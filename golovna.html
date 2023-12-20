@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE recipe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Название вашего магазина</title>
+</head>
+<body id="golovna">
+<header id="head">
+    <nav>
+        <div class="links">
+            <div class="right-links">
+                <a href="#">Регистрация</a>
+                <a>|</a>
+                <a href="#">Авторизация</a>
+            </div>
+            <div class="center-link">
+                <a onclick="ClickG()">Главная</a>
+            </div>
+            <div class="hkategory">
+                <a class="category-button" onclick="toggleCategoryList()">Категорії</a>
+            </div>
+            <div>
+                <input type="text" class="input" placeholder="Поиск...">
+            </div>
+            <div class="hkorzina">
+                <a href="#"> Кошик</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="line"><h2 class="gkategory1">Категория1</h2></div> <br>
+<div class="container">
+    <!--<aside class="sidebar">
+        <h2>Меню</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </aside>-->
+    <section id="catalog1" class="catalog">
+        <article id = 'article1' class="product">
+            <img src="images/product.png" alt="Product 1">
+            <h2>Название товара 1</h2>
+            <p class="productkategory">Бакалія</p>
+            <p class="price">Цена: ₴20.00 / 1 кг.</p>
+            <button class="korzina">Додати до кошика</button>
+            <button class="korzina">Детальніше</button>
+        </article>
+
+        <article class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Название товара 2</h2>
+            <p class="productkategory">Овочі та фрукти</p>
+            <p class="price">Цена: ₴10.00 / 1 кг.</p>
+            <button class="korzina">Добавить в корзину</button>
+            <button class="korzina">Подробнее</button>
+        </article>
+
+        <article class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Название товара 2</h2>
+            <p class="productkategory">Овочі та фрукти</p>
+            <p class="price">Цена: ₴10.00 / 1 кг.</p>
+            <button class="korzina">Добавить в корзину</button>
+            <button class="korzina">Подробнее</button>
+        </article>
+
+        <article class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Название товара 2</h2>
+            <p class="productkategory">Овочі та фрукти</p>
+            <p class="price">Цена: ₴10.00 / 1 кг.</p>
+            <button class="korzina">Добавить в корзину</button>
+            <button class="korzina">Подробнее</button>
+        </article>
+
+        <!-- Добавьте дополнительные товары по аналогии -->
+    </section>
+
+    <!--<section class="main-content">
+        <h1> fasfasf</h1>
+    </section>-->
+</div>
+<div class="line"><h2 class="gkategory1">Категория2</h2></div>
+
+<div class="container">
+    <section  id='catalog2' class="catalog">
+        <article  id ='article2' class="product">
+            <img src="images/product.png" alt="Product 1">
+            <h2>Название товара 1</h2>
+            <p class="productkategory">Бакалія</p>
+            <p class="price">Цена: ₴20.00 / 1 кг.</p>
+            <button class="korzina">Добавить в корзину</button>
+            <button class="korzina">Подробнее</button>
+        </article>
+
+        <article class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Название товара 2</h2>
+            <p class="productkategory">Бакалія</p>
+            <p class="price">Цена: ₴10.00 / 1 кг.</p>
+            <button class="korzina">Добавить в корзину</button>
+            <button class="korzina">Подробнее</button>
+        </article>
+
+        <article class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Название товара 2</h2>
+            <p class="productkategory">Овочі та фрукти</p>
+            <p class="price">Цена: ₴10.00 / 1 кг.</p>
+            <button class="korzina">Добавить в корзину</button>
+            <button class="korzina">Подробнее</button>
+        </article>
+
+        <article class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h2>Название товара 2</h2>
+            <p class="productkategory">Овочі та фрукти</p>
+            <p class="price">Цена: ₴10.00 / 1 кг.</p>
+            <button class="korzina">Добавить в корзину</button>
+            <button class="korzina">Подробнее</button>
+        </article>
+
+    </section>
+</div>
+<ul class="category-list" id="categoryList">
+    <li onclick="selectCategory('Категория 1')">Овочі та фрукти</li>
+    <li onclick="selectCategory('Категория 2')">Бакалія</li>
+    <li onclick="selectCategory('Категория 3')">Категория 3</li>
+    <!-- Добавьте больше категорий, если необходимо -->
+</ul>
+
+<!--<footer>
+    <p>&copy; 2023. Все права защищены.</p>
+</footer>-->
+<script src="script.js"></script>
+</body>
+
+</html>
